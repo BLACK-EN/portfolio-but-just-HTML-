@@ -1,3 +1,409 @@
-nav>ul>li {
-  display: inline;
+nav>ul>li{
+    background: black;
+    display: inline;
+    padding: 18.5px;
+    font-size: 20px;
+    color: white;
+    top: 20px;
+    left: 15%;
+    position: relative;
+    bottom: 150px;
+    left: 62%;
+}
+
+.name{
+    position: relative;
+    bottom: 70px;
+    left: 1%;
+    font-size: 25px;
+    font-family: 'Lucida Console', monospace;
+}
+.home{
+    position: relative;
+    bottom: -45px;
+    left: 1%;
+    font-size: 25px;
+    font-family: 'Monaco', monospace;
+    text-decoration: underline;
+}
+
+li {
+    color:white;
+  }
+
+body{
+
+    background: url("./background3.png");
+}
+
+h1{
+    color:white;
+}
+h2{
+    color:white;
+}
+h3{
+    color:white;
+}
+h4{
+    color:white;
+}
+h5{
+    color:white;
+}
+h6{
+    color:white;
+}
+/*home*/
+.rania_image{
+    border-radius: 50%;
+    position: relative;
+    top: 20px;
+    left: 15%;
+}
+
+.p1{
+    position: relative;
+    bottom: 150px;
+    left: 35%;
+}
+.p2{
+    position: relative;
+    bottom: 160px;
+    left: 35%;
+}
+.p3{
+    position: relative;
+    bottom: 170px;
+    left: 35%;
+}
+
+.insat{
+    border-radius: 50%;
+}
+
+.standford_univ{
+    border-radius: 50%;
+}
+
+.QB50{
+    border-radius: 50%;
+    color:#4ca8c5;
+}
+
+p{
+    color:white;
+}
+
+.work{
+    position:relative;
+    /*bottom:*/
+    left: 1%;
+    font-size:25px;
+    font-family: 'Monaco',monospace;
+    text-decoration: underline;
+}
+
+/*work & resume*/
+
+.insat{
+    position:relative;
+    bottom:-40px;
+    left:10%
+}
+
+.insat1{
+    position:relative;
+    bottom:90px;
+    left:25%;
+}
+
+.insat2{
+    position: relative;
+    bottom:80px;
+    left:25%;
+}
+
+
+
+
+.UPJV{
+    position:relative;
+    bottom:-10px;
+    left:50%;
+}
+
+.UPJV1{
+    position:relative;
+    bottom:100px;
+    left:65%;
+}
+
+.UPJV2{
+    position:relative;
+    bottom:90px;
+    left:65%;
+}
+
+
+
+.standford_univ{
+    position:relative;
+    bottom:15px;
+    left:10%;
+}
+
+.standford_univ_1{
+    position:relative;
+    bottom:125px;
+    left:25%
+}
+
+.standford_univ_2{
+    position:relative;
+    bottom:115px;
+    left:25%;
+}
+
+
+
+
+.QB50{
+    position:relative;
+    bottom:5px;
+    left:50%;
+}
+
+.QB50-1{
+    position:relative;
+    bottom:170px;
+    left:65%;
+}
+
+.QB50-2{
+    position:relative;
+    bottom:160px;
+    left:65%;
+}
+
+.QB50-3{
+    position:relative;
+    bottom:150px;
+    left:65%;
+}
+
+.QB50-4{
+    position:relative;
+    bottom:140px;
+    left:65%;
+}
+
+
+
+
+.parag6{
+    font-size:25px;
+}
+
+.des1{
+    position:relative;
+    bottom:-230px;
+    left:45%;
+    font-size:20px;
+}
+
+.vid1{
+    position:relative;
+    bottom:-40px;
+    left:-3%
+}
+
+.des2{
+    position:relative;
+    bottom:-200px;
+    left:35%;
+    font-size:20px;
+}
+
+.vid2{
+    position:relative;
+    bottom:auto;
+    left:50%
+}
+
+.des3{
+    position:relative;
+    bottom:-230px;
+    left:45%;
+    font-size:20px;
+}
+
+.vid3{
+    position:relative;
+    bottom:-40px;
+    left:-3%
+}
+
+.des4{
+    position:relative;
+    bottom:-200px;
+    left:35%;
+    font-size:20px;
+}
+
+.vid4{
+    position:relative;
+    bottom:auto;
+    left:50%
+}
+
+.des5{
+    position:relative;
+    bottom:-230px;
+    left:45%;
+    font-size:20px;
+}
+
+.vid5{
+    position:relative;
+    bottom:-40px;
+    left:-3%
+}
+
+/*EVENT*/
+
+.event1{
+    position:relative;
+    bottom:-130px;
+    left: 1%;
+    font-size:25px;
+    font-family: 'Monaco',monospace;
+    text-decoration: underline;
+}
+
+.pan{
+    position:relative;
+    bottom:-150px;
+    left:1%;
+}
+
+.pan1{
+    position:relative;
+    bottom:0px;
+    left:1%;
+}
+
+.pan2{
+    position:relative;
+    bottom:-10px;
+    left:1%;
+}
+
+.pan3{
+    position:relative;
+    bottom:-20px;
+    left:1%;
+}
+
+.pan4{
+    position:relative;
+    bottom:-30px;
+    left:1%;
+}
+
+.pan5{
+    position:relative;
+    bottom:-40px;
+    left:1%;
+}
+
+/*contact*/
+
+.last_div{
+    background: black;
+    position:relative;
+    bottom:-450px;
+    left:1%;
+}
+
+.last_title{
+    font-size:18px;
+}
+.last_part{
+    position:relative;
+    bottom:300px;
+    left:60%;
+}
+
+.email{
+    position:relative;
+    bottom:275px;
+    left:60%;
+}
+
+.linkedin{
+    position:relative;
+    bottom:260px;
+    left:65%;
+}
+
+.insta{
+    position:relative;
+    bottom:210px;
+    left:69.5%;
+}
+
+.X{
+    
+    position:relative;
+    bottom:160px;
+    left:62%;
+    
+}
+
+.linkedin1{
+    position:relative;
+    bottom:328px;
+    left:64%;
+}
+
+.insta1{
+    position:relative;
+    bottom:245px;
+    left:64%;
+}
+
+.X1{
+    position:relative;
+    bottom:262.5px;
+    left:67%;
+}
+
+/*award*/
+
+table, th, td {
+    border: 1.5px solid rgb(255, 255, 255);
+  }
+
+th{
+    color:white;
+}
+
+td{
+    color:white;
+}
+
+.awards{
+    position:relative;
+    bottom:-350px;
+    left:5%;
+}
+
+.awards-h1{
+    position:relative;
+    bottom:20px;
+    left: -4%;
+    font-size:25px;
+    font-family: 'Monaco',monospace;
+    text-decoration: underline;
 }

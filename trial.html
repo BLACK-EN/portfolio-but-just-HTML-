@@ -6,7 +6,14 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=deviced-width, initial-scale=1.0"/>
         <link rel="stylesheet" href="style.css">
-        <title>MY PORTFOLIO</title>   <!-- TITLE--> 
+        <title>Rania TOUKEBRI's portfolio</title>   <!-- TITLE--> 
+        <!--<style>
+            nav {
+              background-color: black;
+              padding: 10px;
+              text-align: center;
+            }
+          </style> -->
         
     </head>
 
@@ -14,7 +21,9 @@
     <body >
 
         <header>
-            <nav>                           <!--THE NAV BAR -->
+            <nav>
+                
+                <!--THE NAV BAR -->
                 <ul>
                     <li><a href ="#home">Home</a></li>
                     <li><a href ="#about"> Work & Resume</a></li>
@@ -28,43 +37,44 @@
 
 
         <!--HOME-->
-        <div>
-            <h2>Home</h2>
-            <h1>Rania TOUKEBRI</h1>
-            <img src="woman.jpg" alt="" width="350" height="200">
-            <p>Hello this is Rania TOUKABRI ,born in 1991,</p>
-            <P>a tunisian aerospace ingeneer work for ESA</P>
-            <p>in Breme in Germany since november 2016 </p>
+        <div id ="home">
+            <h2 class="home">Home</h2>
+            <h1 class="name">Rania TOUKEBRI</h1>
+            <img class="rania_image" src="toukebri3.png" alt="" width="250" height="250">
+            <h1 class="p1">This is Rania Toukebri</h1>
+            <P class="p2">I am a tunisian aerospace ingeneer work for</P>
+            <p class="p3">ESA in Breme in Germany since november 2016 </p>
         </div>
 
 
         <!--WORK & RESUME-->
-        <div>
-            <h2> WORK & RESUME </h2>  <!--div1 TITLE-->  <!--change the type of writing-->
+        <div id ="about">
+            <h2 class="work"> WORK & RESUME </h2>  <!--div1 TITLE-->  
 
-            <!--HELP HERE -->       <!--need to circle them-->
             <!--paragraph 1 -->
-            <img src="place.png" alt="" width="150" height="150">            <!--insat image-->  <!--circle it-->
-            <p>I had an engineering diploma in instrumentation and electronics from INSAT in Tunisia in 2015 .</p>
+            <img  class="insat" src="place.png" alt="" width="150" height="150">            <!--insat image-->  
+            <p class="insat1">I had an engineering diploma in instrumentation</p>
+            <p class="insat2">and electronics from INSAT in Tunisia in 2015 .</p>
             
             <!--paragraph 2 -->
-            <img src="Logoupjv-bleu.png" alt="" width="150" height="150">     <!--UPJV french university--> <!--circle it -->
-            <p>I had a Master in embedded systems from UPJV in France in 2016 .</p>
+            <img class="UPJV" src="Logoupjv-bleu.png" alt="" width="150" height="150">     <!--UPJV french university--> 
+            <p class="UPJV1">I had a Master in embedded systems from UPJV in </p>
+            <p class="UPJV2">France in 2016 .</p>
             
             <!-- paragraph 3 -->
-            <img src="images.png" alt="" width="150" height="150">            <!--Standford university-->  <!--circle it-->
-            <p> I also got a certificate in Cryptography from Stanford University in 2017 .</p>
+            <img class="standford_univ" src="images.png" alt="" width="150" height="150">            <!--Standford university-->  
+            <p class="standford_univ_1"> I also got a certificate in Cryptography from Stanford </p>
+            <p class="standford_univ_2">University in 2017 .</p>
             
-            <!-- paragraph 4 -->
-            <img src="project.png" alt="" width="150" height="150">           <!--QB50-->    <!--circle it -->
-            <p>I worked on the QB50 project (50 cubesats launched in 2016-2017) with INSSET .</p>
-
-            <!-- paragraph 5 -->
-            <img src="Logoupjv-bleu.png" alt="" width="150" height="150">     <!--UPTV-->  <!--circle it -->
-            <p>I worked on UPJV during her graduation project .</p>
-
+            <!-- paragraph 4 + 5 -->
+            <img class="QB50"  src="QB50-1.jpg" alt="" width="150" height="150">           <!--QB50-->    
+            <p class="QB50-1">I worked on the QB50 project (50 cubesats launched</p>
+            <p class="QB50-2">in 2016-2017) with INSSET and on on a Bombardier </p>
+            <p class="QB50-3">project `SURFER´:a new generation calculator for</p>
+            <p class="QB50-4">maintenance tasks .</P>
+            
             <!--paragraph 6 -->
-            <p>Among the spacecrafts that I worked in: Jupiter Icy Moons Satellite, Biomass satellite, Met-Op C satellite, En-Map satellite and a non ESA project: Kompsat7 satellite (South Korean).</p>   
+            <p class="parag6">Among the spacecrafts that I worked in: </p>   
             
             
             <!-- <img src="jupiter_project.png" alt="" width="150" height="150">      
@@ -74,48 +84,50 @@
             <img src="korea_satellite.jpg" alt="" width="150" height="150">-->
             
 
-            <!--HELP HERE -->   <!--the youtube video can't load -->
+            <!--youtube_video-->
             <ol type="I">
-                <li>Jupiter Icy Moons Satellite</li>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/Fw17N3rdN7s?si=ogBwP9Vy9Jnx0ag4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <li>Biomass Satellite</li>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/hSMC6tCvm-I?si=p74PeS6GsOvGcupo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <li>Met-Op C Satellite</li>
-                <iframe src="<iframe width="560" height="315" src="https://www.youtube.com/embed/ANlEYxaPS9I?si=IXt1_O3eK1zmY2W7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"></iframe>
-                <li>En-Map Satellite</li>
-                <iframe src="https://youtu.be/NF4CXPfGFZ4?si=uf6SPRJlu6loGytx"></iframe>
-                <li> Kompsat7 Satellite (South Korean)</li>
-                <iframe src="https://youtu.be/tgI-355oadg?si=TeB-gtUbsMCUe6hO"></iframe>
+                <li class="des1">Jupiter Icy Moons Satellite</li>
+                <iframe class="vid1" width="560" height="315" src="https://www.youtube.com/embed/Fw17N3rdN7s?si=ogBwP9Vy9Jnx0ag4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <li class="des2">Biomass Satellite</li>
+                <iframe class="vid2" width="560" height="315" src="https://www.youtube.com/embed/hSMC6tCvm-I?si=p74PeS6GsOvGcupo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <li class="des3">Met-Op C Satellite</li>
+                <iframe class="vid3" width="560" height="315" src="https://www.youtube.com/embed/ANlEYxaPS9I?si=IXt1_O3eK1zmY2W7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>">
+                <li class="des4">En-Map Satellite</li>
+                <iframe class="vid4" width="560" height="315" src="https://www.youtube.com/embed/5HouZ65qGg4?si=lSXlVayPQ8FoiwVb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>>
+                <li class="des5"> Kompsat7 Satellite (South Korean)</li>
+                <iframe class="vid5" width="560" height="315" src="https://www.youtube.com/embed/tgI-355oadg?si=Pmn5ouNpR5IlXaj0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </ol>
             
 
         </div>
-
         <!--EVENTS-->           <!--do like it's written in plan 2-->
-        <div>
-            <h2>Event</h2>  <!--div2 TITLE--> <!--change the type of writing-->
-            <p>I have been part of several international workshops, seminars and events for the development of space activities, 
-                solving space problematics (<a href ="https://en.wikipedia.org/wiki/Space_debris">space debries</a> , <a href="https://en.wikipedia.org">cybersecurity</a>..) and for the growth of <a href="https://spacegeneration.org/">The Space Generation</a> .</p>
-            <!--EVENT 1-->
-            
-            <p> She has been moderator in <a href ="https://spacegeneration.org/">Space Generation Congress</a> .</p>
-            <!--Event 2-->
-
-            <p>she has been part of <a href="https://www.unoosa.org">UNOOSA</a> events, <a href="https://www.unispace.com">the UNISPACE +50</a> and the UNCOPUOS .</p>
-            <!--Event 3-->
-            
-            
-            <p>She is also part of the <a href="https://www.unhcr.org" >UNHCR</a> organization since 2016 .</p>
-            <!--Event 4-->
-            
-            
-            <p> UN Volunteer for <a href="https://academic.oup.com">African affairs</a> and an activist supporting the Human Rights Watch activities .</p>
-            <!--Event 5-->
+        <div id="Resume">
+            <h2 class="event1">Event</h2>  <!--div2 TITLE--> <!--change the type of writing-->
+            <ul class ="pan">
+                <li class="pan1">I have been part of several international workshops, seminars and events for the development of space activities, 
+                    solving space problematics (<a href ="https://en.wikipedia.org/wiki/Space_debris">space debries</a> , <a href="https://en.wikipedia.org">cybersecurity</a>..) and for the growth of <a href="https://spacegeneration.org/">The Space Generation</a> .</li>
+                <!--EVENT 1-->
+                
+                <li class="pan2"> She has been moderator in <a href ="https://spacegeneration.org/">Space Generation Congress</a> .</li>
+                <!--Event 2-->
+    
+                <li class="pan3">she has been part of <a href="https://www.unoosa.org">UNOOSA</a> events, <a href="https://www.unispace.com">the UNISPACE +50</a> and the UNCOPUOS .</li>
+                <!--Event 3-->
+                
+                
+                <li class="pan4">She is also part of the <a href="https://www.unhcr.org" >UNHCR</a> organization since 2016 .</li>
+                <!--Event 4-->
+                
+                
+                <li class="pan5"> UN Volunteer for <a href="https://academic.oup.com">African affairs</a> and an activist supporting the Human Rights Watch activities .</li>
+                <!--Event 5-->
+            </ul>
         
         </div>
         
         <!--AWARDS-->
-        <div>
+        <div class="awards" id ="Award">
+            <h1 class="awards-h1">Awards</h1>
             <table>
                 <tr>
                     <th>Award</th>
@@ -151,8 +163,8 @@
 
 
 
-        <div>
-            <h4>About me </h4>
+        <div class="last_div" id ="Contact">
+            <h1>About me </h1>
             <p>Rania Toukebri , I'm a prominent Tunisian aerospace engineer and space strategy consultant with a </p>
             <p>diverse and influential career in the space industry. I have been deeply involved in various space</p>
             <p>projects, including work with the European Space Agency on earth observation, planetary defense,</p>
@@ -164,12 +176,19 @@
             <h3>Contact Me</h3>
         <!--space-->
             <h5>I'm pleased to answer to any question in case you want to know about my career</h5>
+
+
+            <h2 class="last_part">Contact</h2>
+            <p class="email">e-mail :  toukebri157ran@gmail.com</p>
         
 
         <!--placed right side-->
-            <a href ="https://www.instagram.com/astro_raniatkb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">instagram</a>
-            <a href ="https://www.google.tn/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwir9cbNluOGAxVu9LsIHS76B6kQFnoECBcQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fposts%2Frania-toukebri_linkedin-should-start-considering-sharing-activity-7070394626070691841-g4e1&usg=AOvVaw02enraRhWtc-ZiYkNCDWDs&opi=89978449">linkedin</a>
-            <a href ="https://www.google.tn/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwir9cbNluOGAxVu9LsIHS76B6kQFnoECBoQAQ&url=https%3A%2F%2Ftwitter.com%2Franiatoukebri%3Flang%3Den&usg=AOvVaw2-9sbG2RRai8HnUm_ByOzT&opi=89978449">X</a>
+            <a class ="insta" href ="https://www.instagram.com/astro_raniatkb?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==">instagram</a>
+            <a class="linkedin" href ="https://www.google.tn/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwir9cbNluOGAxVu9LsIHS76B6kQFnoECBcQAQ&url=https%3A%2F%2Fwww.linkedin.com%2Fposts%2Frania-toukebri_linkedin-should-start-considering-sharing-activity-7070394626070691841-g4e1&usg=AOvVaw02enraRhWtc-ZiYkNCDWDs&opi=89978449">linkedin</a>
+            <a class="X" href ="https://www.google.tn/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwir9cbNluOGAxVu9LsIHS76B6kQFnoECBoQAQ&url=https%3A%2F%2Ftwitter.com%2Franiatoukebri%3Flang%3Den&usg=AOvVaw2-9sbG2RRai8HnUm_ByOzT&opi=89978449">X</a>
+            <p class="insta1">Instagram : </p>
+            <p class="linkedin1">Linkedin : </p>
+            <p class="X1">X   : </p>
         </div>
     </body>
 </html> 
